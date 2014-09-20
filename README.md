@@ -1,4 +1,4 @@
-jiracards
+jira_cards
 =========
 
 example

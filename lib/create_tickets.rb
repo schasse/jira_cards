@@ -6,7 +6,7 @@ require 'restclient'
 require 'cgi'
 require './jira_api'
 
-# TODO: devide into use_cases: JiraApi, TemplateCreator, PdfCreator, PdfIssuesWithTemplate
+# TODO: devide into use_cases: TemplateCreator, PdfCreator, PdfIssuesWithTemplate
 
 def append_issue_summaries
   @issue_summaries ||= []

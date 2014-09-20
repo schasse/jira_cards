@@ -1,0 +1,21 @@
+# Offense count: 1
+Lint/Debugger:
+  Enabled: false
+
+# Offense count: 1
+Lint/UselessAccessModifier:
+  Enabled: false
+
+# Offense count: 1
+# Configuration parameters: AllowURI, URISchemes.
+Metrics/LineLength:
+  Max: 81
+
+# Offense count: 5
+Style/Documentation:
+  Enabled: false
+
+# Offense count: 1
+# Cop supports --auto-correct.
+Style/IndentationWidth:
+  Enabled: false
