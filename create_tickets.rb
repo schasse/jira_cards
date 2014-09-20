@@ -4,19 +4,14 @@ require 'pry'
 require 'json'
 require 'restclient'
 require 'cgi'
+require './jira_api'
 
 # TODO: devide into use_cases: JiraApi, TemplateCreator, PdfCreator, PdfIssuesWithTemplate
 
-JIRA_API = 'gapfish.atlassian.net/rest/api/latest/search'
-SEARCH = 'project = EC AND issuetype = Story AND status = Backlog'
-BATCH_SIZE = 50
-
 def append_issue_summaries
   @issue_summaries ||= []
-  offsets.each do |offset|
-    batch(offset)['issues'].each do |issue|
-      @issue_summaries << issue_summary_from(issue)
-    end
+  JiraApi::Issue.where(ENV['QUERY']).to_a.each do |issue|
+    @issue_summaries << issue_summary_from(issue)
   end
 end
 
@@ -71,28 +66,6 @@ def copy(object)
   Marshal.load Marshal.dump(object)
 end
 
-# JIRA API
-def get(params: {})
-  search_string = CGI.escape(ARGV[1] || SEARCH_STRING)
-  url = "https://#{ARGV.first}@" + JIRA_API + '?jql=' +
-    ([search_string] + params.map { |key, value| "#{key}=#{value}" }).join('&')
-  response_string = RestClient.get(url)
-  JSON.parse response_string
-end
-
-def total_count
-  # get['total']
-  batch(1)['total']
-end
-
-def batch(offset)
-  get(params: { startAt: offset, maxResults: BATCH_SIZE })
-  # @batch ||= JSON.parse(File.read 'tickets_example.json')
-end
-
-def offsets
-  (0..(total_count - 1)).step(BATCH_SIZE)
-end
-
-append_issue_summaries
-create_all_printable_issues
+binding.pry
+# append_issue_summaries
+# create_all_printable_issues
