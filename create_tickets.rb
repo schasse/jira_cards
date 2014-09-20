@@ -10,7 +10,7 @@ require './jira_api'
 
 def append_issue_summaries
   @issue_summaries ||= []
-  JiraApi::Issue.where(ENV['QUERY']).to_a.each do |issue|
+  JiraApi::Issue.where(ENV['QUERY']).each do |issue|
     @issue_summaries << issue_summary_from(issue)
   end
 end

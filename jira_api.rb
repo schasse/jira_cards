@@ -14,12 +14,14 @@ class JiraApi
 
     private
 
-      def self.criteria
-        @criteria ||= Criteria.new(END_POINT)
-      end
+    def self.criteria
+      @criteria ||= Criteria.new(END_POINT)
+    end
   end
 
   class Criteria < Struct.new(:api_end_point)
+    include Enumerable
+
     BATCH_SIZE = 50
 
     def where(jira_query)
@@ -27,11 +29,8 @@ class JiraApi
       self
     end
 
-    # or each
-    def to_a
-      @objects ||= offsets.map do |offset|
-        batch(offset)['issues']
-      end.flatten
+    def each(&block)
+      objects.each(&block)
     end
 
     def count
@@ -40,21 +39,25 @@ class JiraApi
 
     private
 
-      def get(params: {})
-        JSON.parse resource.get params: params.merge(jql: @query)
-      end
+    def objects
+      @objects ||= offsets.map { |offset| batch(offset)['issues'] }.flatten
+    end
 
-      def batch(offset)
-        get(params: { startAt: offset, maxResults: BATCH_SIZE })
-      end
+    def get(params: {})
+      JSON.parse resource.get params: params.merge(jql: @query)
+    end
 
-      def offsets
-        (0..(count - 1)).step(BATCH_SIZE)
-      end
+    def batch(offset)
+      get(params: { startAt: offset, maxResults: BATCH_SIZE })
+    end
 
-      def resource
-        @resource ||= RestClient::Resource
-          .new api_end_point, ENV['USER'], ENV['PASSWORD']
-      end
+    def offsets
+      (0..(count - 1)).step(BATCH_SIZE)
+    end
+
+    def resource
+      @resource ||= RestClient::Resource
+        .new api_end_point, ENV['USER'], ENV['PASSWORD']
+    end
   end
 end
