@@ -1,6 +1,5 @@
 $LOAD_PATH.unshift 'lib'
 require 'jira_cards/version'
-require 'cgi'
 
 Gem::Specification.new do |s|
   s.name         = 'jira_cards'
@@ -21,7 +20,7 @@ desc
   s.files       += %w( README.md MIT-LICENSE )
   s.test_files   = Dir.glob('spec/**/*')
 
-  #  s.executables = %w( jira_cards )
+  s.executables  = %w( jira_cards )
 
   s.add_runtime_dependency 'json'
   s.add_runtime_dependency 'restclient'
