@@ -1,4 +1,5 @@
-$LOAD_PATH.unshift File.expand_path '../../lib', __FILE__
+path_to_lib = File.expand_path '../../lib', __FILE__
+$LOAD_PATH.unshift path_to_lib
 
 require 'pry'
 require 'simplecov'

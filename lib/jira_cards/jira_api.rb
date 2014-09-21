@@ -1,10 +1,6 @@
 module JiraCards
-  class JiraApi
-    API = 'https://gapfish.atlassian.net/rest/api/2/'
-
+  module JiraApi
     class Issue
-      END_POINT = API + 'search/'
-
       def self.where(jira_query)
         criteria.where(jira_query)
       end
@@ -16,7 +12,11 @@ module JiraCards
       private
 
       def self.criteria
-        @criteria ||= Criteria.new(END_POINT)
+        @criteria ||= Criteria.new(api_end_point)
+      end
+
+      def self.api_end_point
+        JiraCards::Config.api + 'search/'
       end
     end
 
@@ -26,7 +26,7 @@ module JiraCards
       BATCH_SIZE = 50
 
       def where(jira_query)
-        @query = (@query || '') + jira_query
+        @query = (@query || '') + jira_query.to_s
         self
       end
 
@@ -57,8 +57,8 @@ module JiraCards
       end
 
       def resource
-        @resource ||= RestClient::Resource
-          .new api_end_point, ENV['USER'], ENV['PASSWORD']
+        @resource ||= RestClient::Resource.new(
+          api_end_point, JiraCards::Config.user, JiraCards::Config.password)
       end
     end
   end
