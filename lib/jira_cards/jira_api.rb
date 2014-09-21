@@ -16,7 +16,7 @@ module JiraCards
       end
 
       def self.api_end_point
-        JiraCards::Config.api + 'search/'
+        'https://' + JiraCards::Config.domain + '/rest/api/2/search/'
       end
     end
 
@@ -45,7 +45,7 @@ module JiraCards
       end
 
       def get(params: {})
-        JSON.parse resource.get params: params.merge(jql: @query)
+        JSON.parse resource.get params: params.merge(jql: @query).compact
       end
 
       def batch(offset)

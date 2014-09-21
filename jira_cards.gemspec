@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   Feed me.
 desc
 
-  s.files        = Dir['{lib,resources,bin}/**/*']
+  s.files        = Dir['{bin,lib,resources,config}/**/*']
   s.files       += %w( README.md MIT-LICENSE )
   s.test_files   = Dir.glob('spec/**/*')
 
@@ -24,8 +24,10 @@ desc
 
   s.add_runtime_dependency 'json'
   s.add_runtime_dependency 'restclient'
+  s.add_runtime_dependency 'activesupport'
 
   s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec-its'
   s.add_development_dependency 'travis'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'coveralls'

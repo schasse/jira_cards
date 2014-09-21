@@ -8,11 +8,8 @@ describe JiraCards::Runner do
     end
 
     before do
-      allow(JiraCards::Config).to receive(:user).and_return nil
-      allow(JiraCards::Config).to receive(:password).and_return nil
-      allow(JiraCards::Config).to receive(:query).and_return 'key = WBS-181'
-      allow(JiraCards::Config).to receive(:api)
-        .and_return 'https://jira.atlassian.com/rest/api/2/'
+      JiraCards::Config.query = 'key = WBS-181'
+      JiraCards::Config.domain = 'jira.atlassian.com'
       runner.invoke
     end
     after { File.delete generated_pdf }

@@ -1,6 +1,7 @@
 path_to_lib = File.expand_path '../../lib', __FILE__
 $LOAD_PATH.unshift path_to_lib
 
+require 'rspec/its'
 require 'pry'
 require 'simplecov'
 require 'coveralls'
