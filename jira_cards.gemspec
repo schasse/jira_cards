@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
 desc
 
   s.files        = Dir['{bin,lib,resources,config}/**/*']
-  s.files       += %w( README.md MIT-LICENSE )
-  s.test_files   = Dir.glob('spec/**/*')
+  s.files       += %w(README.md MIT-LICENSE)
+  s.test_files   = Dir['spec/**/*']
 
   s.executables  = %w( jira_cards )
 

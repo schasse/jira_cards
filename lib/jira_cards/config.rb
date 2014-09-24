@@ -2,7 +2,7 @@ module JiraCards
   class Config
     include ActiveSupport::Configurable
 
-    DEFAULT_CONFIG = File.expand_path 'config/default.yml', JiraCards::PATH
+    DEFAULT_CONFIG = File.expand_path 'default.yml', JiraCards::CONFIG_PATH
     HOME_CONFIG = File.expand_path '~/.jira_cards'
     LOCAL_CONFIG = File.expand_path '.jira_cards'
 
