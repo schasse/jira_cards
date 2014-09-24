@@ -2,12 +2,12 @@ language: ruby
 rvm:
   - 1.9.3
   - 2.1.2
-notifications:
-  email: false
+gemfile:
+  - gemfiles/activesupport_3.gemfile
+  - gemfiles/activesupport_4.gemfile
 script:
   - bundle exec cane --no-doc
   - bundle exec rubocop
   - bundle exec rspec
-gemfile:
-  - activesupport_3.gemfile
-  - activesupport_4.gemfile
+notifications:
+  email: false
