@@ -34,4 +34,5 @@ desc
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'cane'
   s.add_development_dependency 'pry'
+  s.add_development_dependency 'appraisal'
 end
