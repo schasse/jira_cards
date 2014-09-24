@@ -5,9 +5,9 @@ rvm:
 notifications:
   email: false
 script:
-  - cane --no-doc
-  - rubocop
-  - rspec
+  - bundle exec cane --no-doc
+  - bundle exec rubocop
+  - bundle exec rspec
 gemfile:
   - activesupport_3.gemfile
   - activesupport_4.gemfile
