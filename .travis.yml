@@ -4,9 +4,5 @@ gemfile:
   - Gemfile
   - gemfiles/activesupport_3.gemfile
   - gemfiles/activesupport_4.gemfile
-script:
-  - bundle exec cane --no-doc .
-  - bundle exec rubocop .
-  - bundle exec rspec spec/
 notifications:
   email: false
