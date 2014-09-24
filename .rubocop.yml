@@ -6,6 +6,7 @@ AllCops:
     - '**/Appraisals'
   Exclude:
     - 'gemfiles/**/*'
+    - 'vendor/bundle/**/*'
 
 # Offense count: 1
 Lint/Debugger:
