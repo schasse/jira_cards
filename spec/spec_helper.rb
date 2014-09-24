@@ -16,4 +16,8 @@ require 'jira_cards'
 
 RSpec.configure do |config|
   config.order = 'random'
+
+  config.before(:each) do
+    JiraCards::Config.reset
+  end
 end

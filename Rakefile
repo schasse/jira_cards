@@ -14,9 +14,7 @@ require 'rubocop/rake_task'
 RuboCop::RakeTask.new :rubocop
 
 require 'cane/rake_task'
-Cane::RakeTask.new :cane do |cane|
-  cane.no_doc = true
-end
+Cane::RakeTask.new :cane
 
 require 'appraisal/task'
 Appraisal::Task.new

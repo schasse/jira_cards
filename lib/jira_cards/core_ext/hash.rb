@@ -7,7 +7,9 @@ unless {}.respond_to? :compact
     #   hash # => { a: true, b: false, c: nil}
     #   { c: nil }.compact # => {}
     def compact
-      select { |_, value| !value.nil? }
+      # rubocop:disable Style/RedundantSelf
+      self.select { |_, value| !value.nil? }
+      # rubocop:enable Style/RedundantSelf
     end
   end
 end
