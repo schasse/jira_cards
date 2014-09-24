@@ -1,3 +1,12 @@
+AllCops:
+  Include:
+    - '**/*.gemspec'
+    - '**/Rakefile'
+    - '**/Gemfile'
+    - '**/Appraisals'
+  Exclude:
+    - 'gemfiles/**/*'
+
 # Offense count: 1
 Lint/Debugger:
   Enabled: false
