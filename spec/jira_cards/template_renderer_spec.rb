@@ -20,5 +20,10 @@ describe JiraCards::TemplateRenderer do
       expect(rendered_templates).to be_a Array
       rendered_templates.each { |template| expect(template).to be_a String }
     end
+
+    its 'result contains the key and summary' do
+      expect(rendered_templates.to_s).to include key
+      expect(rendered_templates.to_s).to include summary
+    end
   end
 end

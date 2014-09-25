@@ -4,32 +4,32 @@ module JiraCards
       'dina4_6_template.svg', JiraCards::RESOURCES_PATH)
 
     def rendered_templates
-      issue_summaries.each_slice(9).map do |issue_summaries_slice|
+      r = issue_summaries.each_slice(9).map do |issue_summaries_slice|
         rendered_template issue_summaries_slice
       end.flatten
+      binding.pry
+      r
     end
 
     private
 
     def rendered_template(issue_summaries_slice)
-      template = template_file_contents.clone
-      issue_summaries_slice.each_with_index.map do |issue_summary, issue_index|
-        template.sub! "$ticket_nr_0#{issue_index}", issue_summary.first
-        template.sub! "$ticket_txt_0#{issue_index}", issue_summary.last
-      end
+      @issues = issue_summaries_slice +
+        (9 - issue_summaries_slice.length).times.map { {} }
+      ERB.new(template_file_contents.clone).result binding
     end
 
     def issue_summaries
       issues.map do |issue|
-        [
-          CGI.escapeHTML(issue['key']),
-          CGI.escapeHTML(issue['fields']['summary'])
-        ]
+        {
+          key: CGI.escapeHTML(issue['key']),
+          summary: CGI.escapeHTML(issue['fields']['summary'])
+        }
       end
     end
 
     def template_file_contents
-      @template_file_contents ||= File.read TEMPLATE_PATH
+      @template_file_contents ||= CGI.unescapeHTML File.read TEMPLATE_PATH
     end
   end
 end

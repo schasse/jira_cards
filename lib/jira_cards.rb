@@ -6,6 +6,7 @@ require 'active_support/core_ext/hash'
 require 'yaml'
 require 'prawn-svg'
 require 'prawn/templates'
+require 'erb'
 
 module JiraCards
   PATH = File.expand_path '../..', __FILE__

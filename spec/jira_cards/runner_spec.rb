@@ -16,6 +16,7 @@ describe JiraCards::Runner do
 
     it 'creates a pdf file' do
       expect(File).to exist(generated_pdf)
+      binding.pry
     end
   end
 end
