@@ -25,6 +25,8 @@ desc
   s.add_runtime_dependency 'json'
   s.add_runtime_dependency 'restclient'
   s.add_runtime_dependency 'activesupport'
+  s.add_runtime_dependency 'prawn-svg'
+  s.add_runtime_dependency 'prawn-templates'
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rspec-its'
