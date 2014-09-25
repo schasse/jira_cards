@@ -8,7 +8,7 @@ describe JiraCards::Runner do
     end
 
     before do
-      JiraCards::Config.query = 'key = WBS-181'
+      JiraCards::Config.query = 'key = WBS-24'
       JiraCards::Config.domain = 'jira.atlassian.com'
       runner.invoke
     end
@@ -16,7 +16,6 @@ describe JiraCards::Runner do
 
     it 'creates a pdf file' do
       expect(File).to exist(generated_pdf)
-      binding.pry
     end
   end
 end

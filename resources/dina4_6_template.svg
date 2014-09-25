@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="524.22265"
-     inkscape:cy="725.89242"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="390.4784"
+     inkscape:cy="240.55292"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -140,238 +140,1021 @@
        id="text3279"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3281"></tspan></text>
+         id="tspan3281" /></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2987-1"
        width="198.4252"
        height="311.81104"
        x="449.99426"
-       y="63.781319" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,769.12205,63.46755)"><flowRegion
-         id="flowRegion3065-8"><rect
-           id="rect3067-0"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6"
-         style="font-size:16px">&lt;%= @issues[0][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3283"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,712.76962,-887.89715)"><flowRegion
-         id="flowRegion3285"><rect
-           id="rect3287"
-           width="304.05597"
-           height="25.253822"
-           x="955.60431"
-           y="70.493904"
-           style="font-size:20px" /></flowRegion><flowPara
-         id="flowPara3289"
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">&lt;%= @issues[0][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3283-4"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,514.34442,-887.89715)"><flowRegion
-         id="flowRegion3285-9"><rect
-           id="rect3287-4"
-           width="304.05597"
-           height="25.253822"
-           x="955.60431"
-           y="70.493904"
-           style="font-size:20px" /></flowRegion><flowPara
-         id="flowPara3289-3"
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">&lt;%= @issues[3][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3283-0"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,315.91923,-887.89715)"><flowRegion
-         id="flowRegion3285-2"><rect
-           id="rect3287-9"
-           width="304.05597"
-           height="25.253822"
-           x="955.60431"
-           y="70.493904"
-           style="font-size:20px" /></flowRegion><flowPara
-         id="flowPara3289-0"
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">&lt;%= @issues[6][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3283-3"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,315.91923,-576.08612)"><flowRegion
-         id="flowRegion3285-6"><rect
-           id="rect3287-2"
-           width="304.05597"
-           height="25.253822"
-           x="955.60431"
-           y="70.493904"
-           style="font-size:20px" /></flowRegion><flowPara
-         id="flowPara3289-6"
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">&lt;%= @issues[7][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3283-5"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,514.34442,-576.08612)"><flowRegion
-         id="flowRegion3285-7"><rect
-           id="rect3287-8"
-           width="304.05597"
-           height="25.253822"
-           x="955.60431"
-           y="70.493904"
-           style="font-size:20px" /></flowRegion><flowPara
-         id="flowPara3289-2"
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">&lt;%= @issues[4][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3283-2"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,712.76962,-576.08612)"><flowRegion
-         id="flowRegion3285-8"><rect
-           id="rect3287-0"
-           width="304.05597"
-           height="25.253822"
-           x="955.60431"
-           y="70.493904"
-           style="font-size:20px" /></flowRegion><flowPara
-         id="flowPara3289-5"
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">&lt;%= @issues[1][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0,1,-1,0,712.76962,-264.2751)"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       id="flowRoot3283-7"
-       xml:space="preserve"><flowRegion
-         id="flowRegion3285-3"><rect
-           style="font-size:20px"
-           y="70.493904"
-           x="955.60431"
-           height="25.253822"
-           width="304.05597"
-           id="rect3287-85" /></flowRegion><flowPara
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold"
-         id="flowPara3289-27">&lt;%= @issues[2][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0,1,-1,0,514.34442,-264.2751)"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       id="flowRoot3283-9"
-       xml:space="preserve"><flowRegion
-         id="flowRegion3285-37"><rect
-           style="font-size:20px"
-           y="70.493904"
-           x="955.60431"
-           height="25.253822"
-           width="304.05597"
-           id="rect3287-86" /></flowRegion><flowPara
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold"
-         id="flowPara3289-1">&lt;%= @issues[5][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0,1,-1,0,315.91923,-264.2751)"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       id="flowRoot3283-00"
-       xml:space="preserve"><flowRegion
-         id="flowRegion3285-4"><rect
-           style="font-size:20px"
-           y="70.493904"
-           x="955.60431"
-           height="25.253822"
-           width="304.05597"
-           id="rect3287-02" /></flowRegion><flowPara
-         style="font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold"
-         id="flowPara3289-62">&lt;%= @issues[8][:key] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-7"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,570.69685,63.46755)"><flowRegion
-         id="flowRegion3065-8-2"><rect
-           id="rect3067-0-5"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-3"
-         style="font-size:16px">&lt;%= @issues[3][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-9"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,372.27166,63.46755)"><flowRegion
-         id="flowRegion3065-8-24"><rect
-           id="rect3067-0-4"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-4"
-         style="font-size:16px">&lt;%= @issues[6][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-4"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,372.27166,375.27857)"><flowRegion
-         id="flowRegion3065-8-4"><rect
-           id="rect3067-0-1"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-1"
-         style="font-size:16px">&lt;%= @issues[7][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-70"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,570.69685,375.27857)"><flowRegion
-         id="flowRegion3065-8-8"><rect
-           id="rect3067-0-17"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-0"
-         style="font-size:16px">&lt;%= @issues[4][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-5"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,769.12205,375.27857)"><flowRegion
-         id="flowRegion3065-8-40"><rect
-           id="rect3067-0-3"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-8"
-         style="font-size:16px">&lt;%= @issues[1][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-0"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,769.12205,687.0896)"><flowRegion
-         id="flowRegion3065-8-3"><rect
-           id="rect3067-0-2"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-2"
-         style="font-size:16px">&lt;%= @issues[2][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-78"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,570.69685,687.0896)"><flowRegion
-         id="flowRegion3065-8-7"><rect
-           id="rect3067-0-53"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-20"
-         style="font-size:16px">&lt;%= @issues[5][:summary] %&gt;</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3063-8-46"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0,1,-1,0,372.27166,687.0896)"><flowRegion
-         id="flowRegion3065-8-48"><rect
-           id="rect3067-0-28"
-           width="297.995"
-           height="144.45181"
-           x="7.0710678"
-           y="165.44824" /></flowRegion><flowPara
-         id="flowPara3069-6-34"
-         style="font-size:16px">&lt;%= @issues[8][:summary] %&gt;</flowPara></flowRoot>  </g>
+       y="63.78133" />
+    <g
+       id="g4044"
+       transform="matrix(0,1,-1,0,768.89372,-329.52003)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212"
+           sodipodi:role="line">&lt;%= @issues[0][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4"
+           sodipodi:role="line">&lt;%= @issues[0][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-4"
+       transform="matrix(0,1,-1,0,570.46852,-329.52003)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-0"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-9"
+           sodipodi:role="line">&lt;%= @issues[3][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-05"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-933"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-1"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-9"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-1"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-6"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-5"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-3"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-0"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-2"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-6"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-3"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-7"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-7"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-7"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-3"
+           sodipodi:role="line">&lt;%= @issues[3][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-2"
+       transform="matrix(0,1,-1,0,372.04332,-329.52003)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-08"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-2"
+           sodipodi:role="line">&lt;%= @issues[6][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-40"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-1"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-2"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-1"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-7"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-2"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-0"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-8"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-9"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-1"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-3"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-33"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-4"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-6"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-1"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-9"
+           sodipodi:role="line">&lt;%= @issues[6][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-21"
+       transform="matrix(0,1,-1,0,372.04332,-17.709004)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-4"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-0"
+           sodipodi:role="line">&lt;%= @issues[7][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-43"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-7"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-3"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-6"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-13"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-4"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-59"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-6"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-6"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-17"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-4"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-6"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-9"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-4"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-5"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-39"
+           sodipodi:role="line">&lt;%= @issues[7][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-8"
+       transform="matrix(0,1,-1,0,570.46852,-17.709004)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-6"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-4"
+           sodipodi:role="line">&lt;%= @issues[4][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-79"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-39"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-0"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-99"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-72"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-8"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-08"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-9"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-64"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-4"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-5"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-30"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-72"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-63"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-2"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-0"
+           sodipodi:role="line">&lt;%= @issues[4][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-0"
+       transform="matrix(0,1,-1,0,768.89372,-17.709004)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-5"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-09"
+           sodipodi:role="line">&lt;%= @issues[1][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-36"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-82"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-19"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-4"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-10"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-3"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-3"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-86"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-4"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-7"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-2"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-0"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-3"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-73"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-3"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-6"
+           sodipodi:role="line">&lt;%= @issues[1][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-6"
+       transform="matrix(0,1,-1,0,768.89372,294.10202)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-2"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-1"
+           sodipodi:role="line">&lt;%= @issues[2][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-04"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-27"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-6"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-3"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-0"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-21"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-4"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-4"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-00"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-70"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-40"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-8"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-0"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-67"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-4"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-7"
+           sodipodi:role="line">&lt;%= @issues[2][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-03"
+       transform="matrix(0,1,-1,0,570.46852,294.10202)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-25"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-08"
+           sodipodi:role="line">&lt;%= @issues[5][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-71"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-823"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-5"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-0"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-6"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-7"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-39"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-39"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-94"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-6"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-1"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-06"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-1"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-2"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-58"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-64"
+           sodipodi:role="line">&lt;%= @issues[5][:summary][7] %&gt;</tspan></text>
+    </g>
+    <g
+       id="g4044-09"
+       transform="matrix(0,1,-1,0,372.04332,294.10202)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3210-66"
+         y="146.36218"
+         x="403"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="146.36218"
+           x="403"
+           id="tspan3212-15"
+           sodipodi:role="line">&lt;%= @issues[8][:key] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-35"
+         y="173.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="173.36218"
+           x="404"
+           id="tspan3216-5"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][0] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-3-7"
+         y="191.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="191.36218"
+           x="404"
+           id="tspan3216-2-8"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][1] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-2-3"
+         y="209.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="209.36218"
+           x="404"
+           id="tspan3216-9-87"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][2] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-33-2"
+         y="227.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="227.36218"
+           x="404"
+           id="tspan3216-3-36"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][3] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-0-62"
+         y="245.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="245.36218"
+           x="404"
+           id="tspan3216-38-8"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][4] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-4-28"
+         y="263.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="263.36218"
+           x="404"
+           id="tspan3216-8-9"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][5] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-7-2"
+         y="283.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="283.36218"
+           x="404"
+           id="tspan3216-93-61"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][6] %&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3214-70-41"
+         y="301.36218"
+         x="404"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="301.36218"
+           x="404"
+           id="tspan3216-4-1"
+           sodipodi:role="line">&lt;%= @issues[8][:summary][7] %&gt;</tspan></text>
+    </g>
+  </g>
 </svg>
