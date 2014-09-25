@@ -10,6 +10,7 @@ describe JiraCards::Runner do
     before do
       JiraCards::Config.query = 'key = WBS-24'
       JiraCards::Config.domain = 'jira.atlassian.com'
+      JiraCards::Config.output = 'jira_issues.pdf'
       runner.invoke
     end
     after { File.delete generated_pdf }

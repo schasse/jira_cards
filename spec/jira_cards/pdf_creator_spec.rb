@@ -11,8 +11,7 @@ describe JiraCards::PdfCreator do
     end
     let(:page_count) { Prawn::Document.new(template: generated_pdf).page_count }
     before do
-      JiraCards::Config.query = 'key = WBS-181'
-      JiraCards::Config.domain = 'jira.atlassian.com'
+      JiraCards::Config.output = 'jira_issues.pdf'
       creator.create_pdf
     end
     after { File.delete generated_pdf }

@@ -10,7 +10,8 @@ module JiraCards
       :domain,
       :user,
       :password,
-      :query
+      :query,
+      :output
     ]
 
     AVAILABLE_CONFIGS.each do |config|

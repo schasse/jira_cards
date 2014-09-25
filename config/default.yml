@@ -1,1 +1,2 @@
 domain: jira.atlassian.com
+output: jira_issues.pdf
