@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.licenses     = ['MIT']
 
   s.description  = <<desc
-  Feed me.
+  With JiraCards you can print Jira issues in a pdf.
 desc
 
   s.files        = Dir['{bin,lib,resources,config}/**/*']

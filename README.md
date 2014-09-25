@@ -1,9 +1,11 @@
-jira_cards
-=========
 [![Build Status](https://travis-ci.org/schasse/jira_cards.svg?branch=master)](https://travis-ci.org/schasse/jira_cards)
 [![Coverage Status](https://coveralls.io/repos/schasse/jira_cards/badge.png)](https://coveralls.io/r/schasse/jira_cards)
 [![Dependency Status](https://gemnasium.com/schasse/jira_cards.svg)](https://gemnasium.com/schasse/jira_cards)
 [![Code Climate](https://codeclimate.com/repos/5422d3166956803fb801aab7/badges/65b5d28c23f35ea81d75/gpa.svg)](https://codeclimate.com/repos/5422d3166956803fb801aab7/feed)
+
+jira_cards
+=========
+converts your jira issues to a printable pdf.
 
 ## Installation
 The recommended way of installing jira_cards is via RubyGems:
