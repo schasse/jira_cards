@@ -35,7 +35,7 @@ JIRA_CARDS_OUTPUT
 jira_cards --query 'key = P-123' --output output.pdf
 ```
 ```
-DOMAIN=jira.atlassian.com QUERY='project = P jira_cards
+DOMAIN=jira.atlassian.com QUERY='project = P' jira_cards
 ```
 
 For all available options use `jira_cards --help`.
