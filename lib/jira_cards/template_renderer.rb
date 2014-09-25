@@ -1,7 +1,7 @@
 module JiraCards
   class TemplateRenderer < Struct.new(:issues)
     TEMPLATE_PATH = File.expand_path(
-      'dina4_6_template.svg', JiraCards::RESOURCES_PATH)
+      '9_issues_for_dina4.svg', JiraCards::RESOURCES_PATH)
 
     def rendered_templates
       issue_summaries.each_slice(9).map do |issue_summaries_slice|
