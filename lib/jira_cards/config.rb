@@ -22,10 +22,10 @@ module JiraCards
       def load(argv = nil)
         config = new argv
         AVAILABLE_OPTIONS.keys.each do |option|
-          option_value = config.options[option] ||
-            config.local_config[option.to_s]    ||
-            config.home_config[option.to_s]     ||
-            ENV[option.to_s.upcase]             ||
+          option_value = config.options[option]    ||
+            config.local_config[option.to_s]       ||
+            config.home_config[option.to_s]        ||
+            ENV['JIRA_CARDS' + option.to_s.upcase] ||
             config.default_config[option.to_s]
           send "#{option}=", option_value
         end

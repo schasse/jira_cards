@@ -5,7 +5,6 @@ describe JiraCards::Config do
 
   context 'with default config' do
     before { JiraCards::Config.load }
-    its(:user) { should eq ENV['USER'] }
     its(:domain) { should eq 'jira.atlassian.com' }
     its(:query) { should eq nil }
   end
