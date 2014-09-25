@@ -21,4 +21,10 @@ describe JiraCards::Config do
 
     its(:password) { should eq 'top_secret' }
   end
+
+  context 'with options' do
+    let(:argv) { ['-q', 'key = WIB-123'] }
+    before { JiraCards::Config.load argv }
+    its(:query) { should eq 'key = WIB-123' }
+  end
 end

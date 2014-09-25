@@ -7,6 +7,7 @@ require 'yaml'
 require 'prawn-svg'
 require 'prawn/templates'
 require 'erb'
+require 'optparse'
 
 module JiraCards
   PATH = File.expand_path '../..', __FILE__

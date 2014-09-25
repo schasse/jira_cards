@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 require 'jira_cards'
-JiraCards::Config.load
+JiraCards::Config.load ARGV
 JiraCards::Runner.invoke
