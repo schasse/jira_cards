@@ -3,14 +3,10 @@ $LOAD_PATH.unshift path_to_lib
 
 require 'rspec/its'
 require 'pry'
-require 'simplecov'
-require 'coveralls'
-
-SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
-  SimpleCov::Formatter::HTMLFormatter,
-  Coveralls::SimpleCov::Formatter
-]
-SimpleCov.start
+unless ENV['APPRAISAL_INITIALIZED']
+  require 'coveralls'
+  Coveralls.wear!
+end
 
 require 'jira_cards'
 

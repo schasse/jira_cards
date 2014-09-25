@@ -166,5 +166,4 @@ DEPENDENCIES
   rspec
   rspec-its
   rubocop
-  simplecov
   travis

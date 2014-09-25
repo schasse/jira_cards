@@ -31,7 +31,6 @@ desc
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rspec-its'
   s.add_development_dependency 'travis'
-  s.add_development_dependency 'simplecov'
   s.add_development_dependency 'coveralls'
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'cane'
