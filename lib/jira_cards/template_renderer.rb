@@ -12,7 +12,8 @@ module JiraCards
     private
 
     def rendered_template(issue_summaries_slice)
-      @issues = issue_summaries_slice +
+      @issues =
+        issue_summaries_slice +
         (9 - issue_summaries_slice.length).times.map { { summary: [] } }
       ERB.new(template_file_contents.clone).result binding
     end

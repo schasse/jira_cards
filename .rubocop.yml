@@ -29,3 +29,13 @@ Style/Documentation:
 # Cop supports --auto-correct.
 Style/IndentationWidth:
   Enabled: false
+
+# Offense count: 1
+Metrics/AbcSize:
+  Max: 20
+
+# Offense count: 4
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/MultilineOperationIndentation:
+  Enabled: false
