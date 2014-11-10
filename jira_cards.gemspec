@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.date         = Time.now.strftime('%Y-%m-%d')
   s.summary      = 'With JiraCards you can print Jira issues in a pdf.'
   s.homepage     = 'http://github.com/schasse/jira_cards'
-  s.email        = 'sebastian.schasse@gapfish.com'
+  s.email        = 'mail@sebastianschasse.de'
   s.authors      = ['schasse']
   s.has_rdoc     = false
   s.licenses     = ['MIT']
