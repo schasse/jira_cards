@@ -20,7 +20,7 @@ module JiraCards
       end
     end
 
-    class Criteria < Struct.new(:api_end_point)
+    Criteria = Struct.new(:api_end_point) do
       include Enumerable
 
       BATCH_SIZE = 50

@@ -1,5 +1,5 @@
 module JiraCards
-  class Config < Struct.new(:argv)
+  Config = Struct.new(:argv) do
     include ActiveSupport::Configurable
 
     DEFAULT_CONFIG = File.expand_path 'default.yml', JiraCards::CONFIG_PATH
@@ -82,7 +82,6 @@ module JiraCards
         "-#{option.to_s.chars.first}",
         "--#{option} #{option.to_s.upcase}",
         description) do |option_value|
-
         @options[option] = option_value
       end
     end

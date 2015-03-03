@@ -1,8 +1,10 @@
 module JiraCards
-  class TemplateRenderer < Struct.new(:issues)
+  module TemplateRenderer
     TEMPLATE_PATH = File.expand_path(
-      '9_issues_for_dina4.svg', JiraCards::RESOURCES_PATH)
+    '9_issues_for_dina4.svg', JiraCards::RESOURCES_PATH)
+  end
 
+  TemplateRenderer = Struct.new(:issues) do
     def rendered_templates
       issue_summaries.each_slice(9).map do |issue_summaries_slice|
         rendered_template issue_summaries_slice
@@ -28,7 +30,8 @@ module JiraCards
     end
 
     def template_file_contents
-      @template_file_contents ||= CGI.unescapeHTML File.read TEMPLATE_PATH
+      @template_file_contents ||= CGI.unescapeHTML File.read(
+        TemplateRenderer::TEMPLATE_PATH)
     end
 
     def aligned(issue_summary)

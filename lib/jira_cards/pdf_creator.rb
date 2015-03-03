@@ -1,5 +1,5 @@
 module JiraCards
-  class PdfCreator < Struct.new(:svgs)
+  PdfCreator = Struct.new(:svgs) do
     def create_pdf
       Prawn::Document.generate(JiraCards::Config.output) do |pdf|
         svgs.each do |svg|
